@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title> UF Quiz </title>
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <section class="col-lg-12">
+          <form>
+
+<h1> The Tebow Test </h1>
+<h2> How well do you know the University of Florida?</h2>
+<p> Located in Gainesville, Florida, UF is the third largest public university in the state. You probably know that UF consistently ranks high among top universities, both in academics and intercollegiate sports. But how much do you actually know about the Gator Nation?
+<a href="https://en.wikipedia.org/wiki/University_of_Florida"> Source: Univeristy of Florida Wikipedia page</a> </p>
+
+<!-- You must include a link to the Wikipedia page in a paragraph ABOVE your form (inside the same row and column is fine). Write something nice to introduce the topic and your quiz to the user. Basically your quiz will be about the topic on the Wikipedia page -->
+
+<div class="form-group">
+  <label for="name"> Name </label>
+    <input class="form-control" type="text" name="name" id="name" placeholder="ex. Albert A. Gator" maxlength="20">
+</div>
+
+<div class="form-group">
+    <label for="email"> Email address </label>
+      <input class="form-control" type="text" name="email_address" id="email" placeholder="ex. chomp@ufl.edu" maxlength="50">
+</div>
+
+<div class="form-group">
+  <label for="majors">Question 1: Can you name five majors that are offered to undergraduates at the UF?</label>
+    <textarea class="form-control" name="majors" id="majors"> </textarea>
+</div>
+
+<div class="form-group">
+  <label>Question 2: What year was UF established?</label>
+
+    <div class="radio">
+    <label><input type="radio" name="year" id="year1" value="1853"> 1853</label>
+      </div>
+
+    <div class="radio">
+    <label><input type="radio" name="year" id="year2" value="1835"> 1835</label>
+      </div>
+
+    <div class="radio">
+    <label><input type="radio" name="year" id="year3" value="1583"> 1583</label>
+    </div>
+
+   <div class="radio">
+   <label><input type="radio" name="year" id="year4" value="1538"> 1538</label>
+    </div>
+
+</div>
+
+
+<div class="form-group">
+  <label>Question 3: Who was the first woman to enroll at UF?</label>
+
+    <div class="radio">
+      <label><input type="radio" name="woman" id="woman1" value="Sophy Mae Mitchell"> Sophy Mae Mitchell</label>
+    </div>
+
+    <div class="radio">
+      <label><input type="radio" name="woman" id="woman2" value="Lassie Goodbread-Black "> Lassie Goodbread-Black</label>
+    </div>
+
+    <div class="radio">
+      <label><input type="radio" name="woman" id="woman3" value="Alberta Anderson"> Alberta Anderson</label>
+    </div>
+
+    <div class="radio">
+      <label><input type="radio" name="woman" id="woman4" value="W. Kent Fuchs"> W. Kent Fuchs</label>
+    </div>
+</div>
+
+
+<div class="form-group">
+  <label>Question 4: How many libraries does UF have?</label>
+
+    <div class="radio">
+    <label> <input type="radio" name="number" id="number1" value="4"> 4 </label>
+      </div>
+
+    <div class="radio">
+    <label><input type="radio" name="number" id="number2" value="6"> 6 </label>
+      </div>
+
+    <div class="radio">
+    <label><input type="radio" name="number" id="number3" value="8"> 8 </label>
+      </div>
+
+    <div class="radio">
+    <label><input type="radio" name="number" id="number4" value="10"> 10</label>
+      </div>
+
+    <div class="radio">
+    <label><input type="radio" name="number" id="number5" value="12"> 12 </label>
+      </div>
+</div>
+
+<div class="form-group">
+  <label>Question 5: Which of the following people are Gator grads?</label>
+
+    <div class="checkbox">
+    <label><input type="checkbox" name="famous_person" id="famous1" value="Marco Rubio"> Marco Rubio</label>
+      </div>
+
+    <div class="checkbox">
+    <label><input type="checkbox" name="famous_person" id="famous2" value="Paul Rudd"> Paul Rudd</label>
+      </div>
+
+    <div class="checkbox">
+    <label><input type="checkbox" name="famous_person" id="famous3" value="Faye Dunaway"> Faye Dunaway</label>
+      </div>
+
+    <div class="checkbox">
+    <label><input type="checkbox" name="famous_person" id="famous4" value="Charlie Crist"> Charlie Crist</label>
+      </div>
+
+    <div class="checkbox">
+    <label><input type="checkbox" name="famous_person" id="famous5" value="Jim Morrison"> Jim Morrison</label>
+      </div>
+
+    <div class="checkbox">
+    <label><input type="checkbox" name="famous_person" id="famous6" value="Erin Andrews"> Erin Andrews</label>
+      </div>
+</div>
+
+<div class="form-group">
+  <label for="colleges">Question 6:<br>
+    <em> Which one of these is NOT a college at UF? </em>
+    <select class="form-control" name="colleges" id="colleges">
+      <option value="journalism"> College of Journalism and Communications</option>
+      <option value="agriculture_lifeSciences"> College of Agricultural and Life Sciences</option>
+      <option value="education"> College of Education</option>
+      <option value="law"> Levin College of Law</option>
+      <option value="engineering"> College of Engineering</option>
+      <option value="arts_sciences"> College of Liberal Arts and Sciences</option>
+      <option value="socialScience_publicPolicy"> College of Social Sciences and Public Policy </option>
+      <option value="design"> College of Design Construction and Planning</option>
+      <option value="business"> Warrington College of Business</option>
+      <option value="health"> College of Health and Human Performance</option>
+      <option value="medicine"> College of Medicine</option>
+    </select>
+  </label>
+</div>
+
+  <input class="btn btn-default" type="submit" value="Submit your answers">
+  <input class="btn btn-default" type="reset" value="Start over">
+
+</form>
+</section>
+</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!-- Issues
+- when doing <label for="">, I can't figure out how to do that when it is NOT a drop down or textarea element -->
